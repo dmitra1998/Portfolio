@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "image": "/img/smackdown21.png",
+    "title": "Codechef SnackDown 2021 - Certificate of Participation",
+    "description": "Earned a certificate for taking part in the Codechef SnackDown 2021 contest, a global competition that tested coder's problem-solving and coding skills"
+  },
+  {
+    "id": 2,
+    "image": "/img/codechef_rank.jpg",
+    "title": "Codechef - 3 star coder",
+    "description": "Secured 3 star for solving coding problems on Codechef, demonstrating strong problem-solving abilities and proficiency in algorithms and data structures."
+  }
+]

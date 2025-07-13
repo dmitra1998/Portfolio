@@ -1,0 +1,188 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript",
+        "icon": "devicon-javascript-plain colored",
+        "title": "JavaScript"
+    },
+    {
+        "id": 2,
+        "name": "TypeScript",
+        "icon": "devicon-typescript-plain colored",
+        "title": "TypeScript"
+    },
+    {
+        "id": 3,
+        "name": "React.js",
+        "icon": "devicon-react-original colored",
+        "title": "React.js"
+    },
+    {
+        "id": 4,
+        "name": "Next.js",
+        "icon": "devicon-nextjs-original colored",
+        "title": "Next.js"
+    },
+    {
+        "id": 5,
+        "name": "HTML",
+        "icon": "devicon-html5-plain colored",
+        "title": "HTML"
+    },
+    {
+        "id": 6,
+        "name": "CSS",
+        "icon": "devicon-css3-plain colored",
+        "title": "CSS"
+    },
+    {
+        "id": 7,
+        "name": "Material UI",
+        "icon": "devicon-materialui-plain colored",
+        "title": "Material UI"
+    },
+    {
+        "id": 8,
+        "name": "Tailwind CSS",
+        "icon": "devicon-tailwindcss-plain colored",
+        "title": "Tailwind CSS"
+    },
+    {
+        "id": 9,
+        "name": "Node.js",
+        "icon": "devicon-nodejs-plain colored",
+        "title": "Node.js"
+    },
+    {
+        "id": 10,
+        "name": "Express",
+        "icon": "devicon-express-original colored",
+        "title": "Express"
+    },
+    {
+        "id": 11,
+        "name": "Jest",
+        "icon": "devicon-jest-plain colored",
+        "title": "Jest"
+    },
+    {
+        "id": 12,
+        "name": "React Testing Library",
+        "icon": "devicon-react-original colored",
+        "title": "React Testing Library"
+    },
+    {
+        "id": 13,
+        "name": "MongoDB",
+        "icon": "devicon-mongodb-plain colored",
+        "title": "MongoDB"
+    },
+    {
+        "id": 14,
+        "name": "Redux",
+        "icon": "devicon-redux-original colored",
+        "title": "Redux"
+    },
+    {
+        "id": 15,
+        "name": "Webpack",
+        "icon": "devicon-webpack-plain colored",
+        "title": "Webpack"
+    },
+    {
+        "id": 16,
+        "name": "Babel",
+        "icon": "devicon-babel-plain colored",
+        "title": "Babel"
+    },
+    {
+        "id": 17,
+        "name": "NPM",
+        "icon": "devicon-npm-original-wordmark colored",
+        "title": "NPM"
+    },
+    {
+        "id": 18,
+        "name": "Git",
+        "icon": "devicon-git-plain colored",
+        "title": "Git"
+    },
+    {
+        "id": 19,
+        "name": "Figma",
+        "icon": "devicon-figma-plain colored",
+        "title": "Figma"
+    },
+    {
+        "id": 20,
+        "name": "AWS (EC2)",
+        "icon": "devicon-amazonwebservices-original colored",
+        "title": "AWS (EC2)"
+    },
+    {
+        "id": 21,
+        "name": "Cloudinary",
+        "icon": "devicon-cloudinary-plain colored",
+        "title": "Cloudinary"
+    },
+    {
+        "id": 22,
+        "name": "Azure",
+        "icon": "devicon-azure-plain colored",
+        "title": "Azure"
+    },
+    {
+        "id": 23,
+        "name": "MySQL",
+        "icon": "devicon-mysql-plain colored",
+        "title": "MySQL"
+    },
+    {
+        "id": 24,
+        "name": "Jenkins",
+        "icon": "devicon-jenkins-plain colored",
+        "title": "Jenkins"
+    },
+    {
+        "id": 25,
+        "name": "GitLab",
+        "icon": "devicon-gitlab-plain colored",
+        "title": "GitLab"
+    },
+    {
+        "id": 26,
+        "name": "Jira",
+        "icon": "devicon-jira-plain colored",
+        "title": "Jira"
+    },
+    {
+        "id": 27,
+        "name": "Bitbucket",
+        "icon": "devicon-bitbucket-plain colored",
+        "title": "Bitbucket"
+    },
+    {
+        "id": 28,
+        "name": "Confluence",
+        "icon": "devicon-confluence-plain colored",
+        "title": "Confluence"
+    },
+    {
+        "id": 29,
+        "name": "C++",
+        "icon": "devicon-cplusplus-plain colored",
+        "title": "C++"
+    },
+    {
+        "id": 30,
+        "name": "Python",
+        "icon": "devicon-python-plain colored",
+        "title": "Python"
+    },
+    {
+        "id": 31,
+        "name": "FastAPI",
+        "icon": "devicon-fastapi-plain colored",
+        "title": "FastAPI"
+    }
+]

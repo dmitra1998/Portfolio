@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "label": "My Resume",
+    "url": "docs/Dhritabrata Mitra Resume.pdf"
+  },
+  {
+    "id": 2,
+    "label": "My GitHub profile",
+    "url": "https://github.com/dmitra1998"
+  },
+  {
+    "id": 3,
+    "label": "My LinkedIn profile",
+    "url": "https://www.linkedin.com/in/dhritabratamitra/"
+  },
+  {
+    "id": 4,
+    "label": "My Youtube Channel",
+    "url": "https://www.youtube.com/@DhritabrataMitraProfessi-uz9th"
+  }
+]

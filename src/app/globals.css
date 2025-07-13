@@ -1,26 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400..700&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+    --font-family-roboto-condensed: 'Roboto Condensed', sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-family-roboto-condensed text-[23px] tracking-tighter leading-relaxed m-0 bg-[#f9f9f9] text-[#333];
+}
+
+.btn {
+  @apply inline-block my-1 mx-1 px-[1.2rem] py-[0.6rem] bg-[#1b263b] text-white rounded-[5px] no-underline transition-colors duration-300 hover:bg-[#415a77];
+}
+
+.h2{
+    @apply font-[1000] border-b-2 border-[#1b263b] mb-2 text-[#1b263b] text-[2.7rem];
+}
+
+.center-align {
+  @apply max-w-[1000px] mx-auto p-8 text-[1.2em];
+}
+
+.title {
+  @apply font-semibold text-center p-5;
+}
+
+.scaleSkills {
+  @apply hover:scale-120 transition-transform duration-300;
+}
+
+.scaleProject {
+  @apply hover:scale-103 transition-transform duration-300;
+}
+
+.scaleAchievements {
+  @apply hover:scale-103 transition-transform duration-300;
+}
+
+.scaleButtons {
+  @apply hover:scale-103 transition-transform duration-300;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1.8s ease, transform 1.8s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
