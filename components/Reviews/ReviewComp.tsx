@@ -87,7 +87,7 @@ const ReviewComp = ({viewButton}: ReviewCompProps) => {
       {list.map((data, i) => (
         <div
           key={data.id}
-          ref={el => (cardRefs.current[i] = el)}
+          ref={el => {cardRefs.current[i] = el}}
           className="flex flex-row gap-4 h-full w-full flex-shrink-0 justify-center px-6"
         >
           <div className="w-[15%] mt-3">
