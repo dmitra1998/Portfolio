@@ -31,7 +31,7 @@ const ReviewComp = ({viewButton}: ReviewCompProps) => {
     const fetchReviews = async () => {
       const { data, error } = await supabase.from('Reviews').select('*');
       if (error) console.error(error.message);
-      else setList(data || []);
+      else setList(data);
     };
     if (!viewButton) fetchReviews();
   }, [viewButton]);

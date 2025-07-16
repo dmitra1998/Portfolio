@@ -37,7 +37,7 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
     const { data, error } = await supabase.storage
       .from('avatars')
       .upload(`public/${fileName}`, file);
-    console.log("data = ", data);
+    // console.log("data = ", data);
 
     if (error) {
       alert('Upload error: ' + error.message);
@@ -47,7 +47,7 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
         .getPublicUrl(data.path);
 
       //alert('Image uploaded successfully!');
-      console.log('Image URL:', urlData.publicUrl);
+      // console.log('Image URL:', urlData.publicUrl);
       //setImgURL(urlData.publicUrl);
       //console.log('imgURL = ', imgURL);
       SubmitForm(urlData.publicUrl);
@@ -70,7 +70,7 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
       console.log(error)
     }
     if (data) {
-      console.log(data)
+      
     }
     setName('');
     setReview('');  

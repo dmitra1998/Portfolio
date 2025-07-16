@@ -39,7 +39,7 @@ export default function Home() {
       <Footer/>
       <ToastContainer
         position="top-center"
-        autoClose={2500}
+        autoClose={1500}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick={false}

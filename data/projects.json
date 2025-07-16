@@ -3,24 +3,32 @@
     "id": 1,
     "title": "ChatAway",
     "videoUrl": "https://www.youtube.com/embed/3s_voVgBmj8?si=JevgKqzOZiZxD6Em",
-    "description": "ChatAway is a web application where users can send text messages and photos to friends. Users can change the theme of the application and upload their own profile picture. Users can login with their Google account or create an account. The front end was built with React.js and the back end was developed using Node.js and Express.js. The application uses Socket.io for real-time communication and MongoDB for data storage. DaisyUi and Tailwind CSS were used to style the application. The application is still in progress."
+    "description": "ChatAway is a web application where users can send text messages and photos to friends. Users can change the theme of the application and upload their own profile picture. Users can login with their Google account or create an account. The front end was built with React.js and the back end was developed using Node.js and Express.js. The application uses Socket.io for real-time communication and MongoDB for data storage. DaisyUi and Tailwind CSS were used to style the application. The application is still in progress.",
+    "GitHub": "",
+    "Link": ""
   },
   {
     "id": 2,
     "title": "Carnival Game in VR",
     "videoUrl": "https://www.youtube.com/embed/bbV3buQ2uTQ?si=MOyiLQS22uKZOxW7",
-    "description": "VR Carnival Experience is a fun virtual reality game that brings the excitement of a real carnival to life. Using a VR headset and motion controllers, players can walk around a colorful carnival, play classic games like Can Knock Down and Balloon Pop, and earn points. The carnival is full of bright colors, lively sounds, and a happy atmosphere to make players feel like they are really there. Motion controls let players throw balls and interact with the games just like in real life. Built with Unreal Engine 5.5, the game is easy to play and enjoy, even for people new to VR. The focus is on having fun, feeling part of the carnival, and enjoying a lively digital world."
+    "description": "VR Carnival Experience is a fun virtual reality game that brings the excitement of a real carnival to life. Using a VR headset and motion controllers, players can walk around a colorful carnival, play classic games like Can Knock Down and Balloon Pop, and earn points. The carnival is full of bright colors, lively sounds, and a happy atmosphere to make players feel like they are really there. Motion controls let players throw balls and interact with the games just like in real life. Built with Unreal Engine 5.5, the game is easy to play and enjoy, even for people new to VR. The focus is on having fun, feeling part of the carnival, and enjoying a lively digital world.",
+    "GitHub": "",
+    "Link": ""
   },
   {
     "id": 3,
     "title": "Plant Disease Detection using Python",
     "videoUrl": "https://www.youtube.com/embed/BsrJ03ox3ZI?si=fdmzp2wvQtOON0nK",
-    "description": "A web app that allows users to upload plant images and check if the plant is healthy or has early or late blight. The front end was built with React JS, and the back end was developed using FastAPI. A convolutional neural network model was used, achieving 95% accuracy. The project was built using Python, JavaScript, HTML, and CSS."
+    "description": "A web app that allows users to upload plant images and check if the plant is healthy or has early or late blight. The front end was built with React JS, and the back end was developed using FastAPI. A convolutional neural network model was used, achieving 95% accuracy. The project was built using Python, JavaScript, HTML, and CSS.",
+    "GitHub": "https://github.com/dmitra1998/Plant_Disease_Detection_Python",
+    "Link": ""
   },
   {
     "id": 4,
     "title": "Candy Crash Game",
     "videoUrl": "https://www.youtube.com/embed/DDbuLA5QSq8?si=sH9Z2Lv6bLpAQfgG",
-    "description": "A ReactJS game where players match and crush candies that are next to each other. When a candy is crushed, the candies above it take their place, and new ones appear at the top. The score increases by one for each crushed candy, and the final score is shown to the user. The project was built using React Js."
+    "description": "A ReactJS game where players match and crush candies that are next to each other. When a candy is crushed, the candies above it take their place, and new ones appear at the top. The score increases by one for each crushed candy, and the final score is shown to the user. The project was built using React Js.",
+    "GitHub": "https://github.com/dmitra1998/Candy-Crush-React",
+    "Link": "https://candycrush1998.netlify.app/"
   }
 ]
