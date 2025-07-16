@@ -10,8 +10,17 @@ const Review = () => {
         <div>
           <ReviewComp viewButton={viewButton}/>
         </div>
-        <div className="flex justify-end my-10">
-            <button onClick={() => {setViewButton(!viewButton)}} className="border-corners justify-end hover:cursor-pointer hover:bg-[#e0e1dd] transition-colors duration-400">Share Your Opinion</button>
+        <div className="flex justify-end gap-2 my-10 items-center">
+            <div>
+              <span>You know this person?</span>
+            </div>
+            <div>
+              <button 
+                onClick={() => {setViewButton(!viewButton)}} 
+                className="border-corners justify-end hover:cursor-pointer hover:bg-[#e0e1dd] transition-colors duration-400">
+                  Share Your Opinion of Him
+                </button>
+            </div>
         </div>
         <div className={`transition-all duration-500 ease-in-out overflow-hidden ${
             viewButton ? 'max-h-[1000px]' : 'max-h-0'
