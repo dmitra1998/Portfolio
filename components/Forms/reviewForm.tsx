@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import { useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
+import { toast } from 'react-toastify';
 
 // Replace with your values
 const supabase = createClient(
@@ -25,7 +26,10 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    if (!file) return;
+    if (!file || !name || !review) {
+      toast.error("All fields are required");
+      return;
+    }
 
     //setUploading(true);
     const fileName = `${Date.now()}-${file.name}`;
@@ -53,10 +57,10 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
 
   const SubmitForm = async (imgURL: string) => {
 
-    if (!name || !review) {
-      alert('Please fill in all fields.');
-      return;
-    }
+    // if (!name || !review) {
+    //   alert('Please fill in all fields.');
+    //   return;
+    // }
     
     const { data, error } = await supabase
       .from('Reviews')
@@ -73,6 +77,7 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
     setFile(null);
     setPreviewURL(null);
     setViewButton(false);
+    toast.success('Successfully Form Submitted!')
   }
 
   return (
@@ -89,7 +94,7 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
             }}
             className='hidden'
           />
-          <div className='h-full w-full border-corners flex items-center justify-center text-2xl'>{previewURL ? <Image src={previewURL} alt="Uploaded" height={200} width={200}/>:<span className='text-gray-400'>Image Preview</span>}</div>
+          <div className='h-full w-full border-corners flex items-center justify-center text-2xl'>{previewURL ? <Image src={previewURL} alt="Uploaded Image" height={200} width={200} className='w-[200px] h-[300px]'/>:<span className='text-gray-400'>Image Preview</span>}</div>
           <div className='flex flex-row gap-2 justify-center text-2xl'>
             <label htmlFor="file-upload" className='border-corners hover:cursor-pointer text-center hover:bg-[#e0e1dd] transition-colors duration-400'>
               {previewURL ? 'Click to choose another image' : 'Choose an image to upload'}
