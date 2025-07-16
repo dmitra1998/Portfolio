@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -91,10 +92,12 @@ const ReviewComp = ({viewButton}: ReviewCompProps) => {
           className="flex flex-row gap-4 h-full w-full flex-shrink-0 justify-center px-6"
         >
           <div className="w-[15%] mt-3">
-            <img
+            <Image
               src={data.imgURL}
-              alt="wallpaper"
+              alt="profileImage"
               className="profile-picture-style"
+              width={200}
+              height={200}
             />
           </div>
           <div className="flex flex-col gap-2 p-3 w-[85%]">

@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 
 import { useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
@@ -17,7 +18,7 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
   const [file, setFile] = useState<File | null>(null);
   // const [imgURL, setImgURL] = useState<string | null>(null);
   const [previewURL, setPreviewURL] = useState<string | null>(null);
-  const [uploading, setUploading] = useState(false);
+  //const [uploading, setUploading] = useState(false);
 
   const [name, setName] = useState<string>('');
   const [review, setReview] = useState<string>('');
@@ -26,7 +27,7 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
     e.preventDefault()
     if (!file) return;
 
-    setUploading(true);
+    //setUploading(true);
     const fileName = `${Date.now()}-${file.name}`;
 
     const { data, error } = await supabase.storage
@@ -47,7 +48,7 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
       //console.log('imgURL = ', imgURL);
       SubmitForm(urlData.publicUrl);
     }
-    setUploading(false);
+    //setUploading(false);
   };
 
   const SubmitForm = async (imgURL: string) => {
@@ -88,7 +89,7 @@ const ReviewForm = ({setViewButton}: ReviewFormProps) => {
             }}
             className='hidden'
           />
-          <div className='h-full w-full border-corners flex items-center justify-center text-2xl'>{previewURL ? <img src={previewURL} alt="Uploaded" height={200} width={200}/>:<span className='text-gray-400'>Image Preview</span>}</div>
+          <div className='h-full w-full border-corners flex items-center justify-center text-2xl'>{previewURL ? <Image src={previewURL} alt="Uploaded" height={200} width={200}/>:<span className='text-gray-400'>Image Preview</span>}</div>
           <div className='flex flex-row gap-2 justify-center text-2xl'>
             <label htmlFor="file-upload" className='border-corners hover:cursor-pointer text-center hover:bg-[#e0e1dd] transition-colors duration-400'>
               {previewURL ? 'Click to choose another image' : 'Choose an image to upload'}
