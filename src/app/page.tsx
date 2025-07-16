@@ -6,7 +6,8 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Projects from "../../components/Projects";
 import Skills from "../../components/Skills";
-import Forms from "../../components/Forms/reviewForms";
+import Review from "../../components/Review";
+
 
 export default function Home() {
 
@@ -33,7 +34,7 @@ export default function Home() {
       <Skills/>
       <Projects/>
       <Achievements/>
-      <Forms/>
+      <Review/>
       <Footer/>
     </>
   );

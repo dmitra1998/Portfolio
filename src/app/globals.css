@@ -9,6 +9,18 @@ body {
   @apply font-family-roboto-condensed text-[23px] tracking-tighter leading-relaxed m-0 bg-[#f9f9f9] text-[#333];
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #9ca3af;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 .btn {
   @apply inline-block my-1 mx-1 px-[1.2rem] py-[0.6rem] bg-[#1b263b] text-white rounded-[5px] no-underline transition-colors duration-300 hover:bg-[#415a77];
 }
@@ -51,3 +63,28 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+.border-corners {
+  @apply p-4 border-2 rounded-lg;
+}
+
+.profile-picture-style {
+  @apply w-[150px] h-[120px] rounded-full;
+}
+
+@keyframes scrollRightToLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .scroll-animation {
+    animation: scrollRightToLeft 1200s linear infinite;
+  }
+
+  .pause-on-hover:hover {
+    animation-play-state: paused;
+  }
