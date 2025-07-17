@@ -12,7 +12,7 @@ const Review = () => {
         </div>
         <div className="flex justify-end gap-2 my-10 items-center">
             <div>
-              <span>You know this person?</span>
+              <span>Have you worked with him?</span>
             </div>
             <div>
               <button 
