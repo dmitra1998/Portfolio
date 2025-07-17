@@ -38,5 +38,13 @@
     "description": "Zentry is a professional website with GSAP animation. The website has loading logo, smooth transition animation, and is responsive in design. The concept of flex was used to align items in the website. The main purpose of this project was to learn how GSAP animation worked. The app was created using React, JavaScript and the styling was done using Tailwind CSS",
     "GitHub": "https://github.com/dmitra1998/Zentry",
     "Link": "https://zentry1998.netlify.app/"
+  },
+  {
+    "id": 6,
+    "title": "Create Note - Material UI",
+    "videoUrl": "https://www.youtube.com/embed/bY1WoADlqcU?si=Blua43jGSsVLbXJZ",
+    "description": "Create Note is an app where users can create note and use the information on the note as a reminder what tasks needs to be done. The app was made using React and the website was done using Material UI.",
+    "GitHub": "https://github.com/dmitra1998/MUI_Tut",
+    "Link": "https://notecardappmui.netlify.app/"
   }
 ]
