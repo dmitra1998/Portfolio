@@ -17,7 +17,7 @@ const Projects = () => {
                     {/* <div className='w-full p-2 mt-auto flex flex-row gap-6 text-center items-center'> */}
                     <div className='w-full p-2 mt-auto grid grid-cols-2 gap-6 text-center items-center'>
                       {projects.GitHub?<span className='mt-7 w-2 scaleProject'><a href={projects.GitHub} target="_blank" rel="noopener noreferrer"> <FaGithub size={60} /></a></span>:''}
-                      {projects.Link?<button className="scaleProject mt-7 text-2xl border-corners hover:cursor-pointer hover:bg-[#e0e1dd] transition-colors duration-400"><a href={projects.Link} target="_blank" rel="noopener noreferrer">Click to try</a></button>:''}
+                      {projects.Link?<button className="scaleProject mt-7 text-2xl border-corners hover:cursor-pointer hover:bg-[#e0e1dd] transition-colors duration-400"><a href={projects.Link} target="_blank" rel="noopener noreferrer">Live Site</a></button>:''}
                     </div>
                 </div>
             ))}
