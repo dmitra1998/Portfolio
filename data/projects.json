@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Meet AI",
+    "videoUrl": "https://www.youtube.com/embed/RBQW7568kgg?si=D6idhrNn-grRrOwu",
+    "description": "Meet AI is a SAAS application where users can create an agent and use that agent to join a call to clear any doubts",
+    "GitHub": "",
+    "Link": "https://saas-meet-ai.vercel.app/"
+  },
+  {
+    "id": 2,
     "title": "ChatAway",
     "videoUrl": "https://www.youtube.com/embed/3s_voVgBmj8?si=JevgKqzOZiZxD6Em",
     "description": "ChatAway is a web application where users can send text messages and photos to friends. Users can change the theme of the application and upload their own profile picture. Users can login with their Google account or create an account. The front end was built with React.js and the back end was developed using Node.js and Express.js. The application uses Socket.io for real-time communication and MongoDB for data storage. DaisyUi and Tailwind CSS were used to style the application. The application is still in progress.",
@@ -8,7 +16,7 @@
     "Link": "https://chataway-refs.onrender.com/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Carnival Game in VR",
     "videoUrl": "https://www.youtube.com/embed/bbV3buQ2uTQ?si=MOyiLQS22uKZOxW7",
     "description": "VR Carnival Experience is a fun virtual reality game that brings the excitement of a real carnival to life. Using a VR headset and motion controllers, players can walk around a colorful carnival, play classic games like Can Knock Down and Balloon Pop, and earn points. The carnival is full of bright colors, lively sounds, and a happy atmosphere to make players feel like they are really there. Motion controls let players throw balls and interact with the games just like in real life. Built with Unreal Engine 5.5, the game is easy to play and enjoy, even for people new to VR. The focus is on having fun, feeling part of the carnival, and enjoying a lively digital world.",
@@ -16,7 +24,7 @@
     "Link": ""
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Plant Disease Detection using Python",
     "videoUrl": "https://www.youtube.com/embed/BsrJ03ox3ZI?si=fdmzp2wvQtOON0nK",
     "description": "A web app that allows users to upload plant images and check if the plant is healthy or has early or late blight. The front end was built with React JS, and the back end was developed using FastAPI. A convolutional neural network model was used, achieving 95% accuracy. The project was built using Python, JavaScript, HTML, and CSS.",
@@ -24,7 +32,7 @@
     "Link": ""
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Candy Crash Game",
     "videoUrl": "https://www.youtube.com/embed/DDbuLA5QSq8?si=sH9Z2Lv6bLpAQfgG",
     "description": "A ReactJS game where players match and crush candies that are next to each other. When a candy is crushed, the candies above it take their place, and new ones appear at the top. The score increases by one for each crushed candy, and the final score is shown to the user. The project was built using React Js.",
@@ -32,7 +40,7 @@
     "Link": "https://candycrush1998.netlify.app/"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Zentry",
     "videoUrl": "https://www.youtube.com/embed/htLUYtpBQzU?si=48E8K3F-IEJFnw4T",
     "description": "Zentry is a professional website with GSAP animation. The website has loading logo, smooth transition animation, and is responsive in design. The concept of flex was used to align items in the website. The main purpose of this project was to learn how GSAP animation worked. The app was created using React, JavaScript and the styling was done using Tailwind CSS",
@@ -40,7 +48,7 @@
     "Link": "https://zentry1998.netlify.app/"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Create Note - Material UI",
     "videoUrl": "https://www.youtube.com/embed/bY1WoADlqcU?si=Blua43jGSsVLbXJZ",
     "description": "Create Note is an app where users can create note and use the information on the note as a reminder what tasks needs to be done. The app was made using React and the website was done using Material UI.",
