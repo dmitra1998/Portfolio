@@ -4,7 +4,7 @@
     "title": "Meet AI",
     "videoUrl": "https://www.youtube.com/embed/RBQW7568kgg?si=D6idhrNn-grRrOwu",
     "description": "Meet AI is a SAAS application where users can create an agent and use that agent to join a call to clear any doubts they have. Users can sign in and sign up by filling a form or using their google or github acount. Initially the account will be a free account but the users can enroll in required subscriptions and get all the benefits of a paid account.",
-    "GitHub": "",
+    "GitHub": "https://github.com/dmitra1998/Meeting_AI_Agent",
     "Link": "https://saas-meet-ai.vercel.app/"
   },
   {
